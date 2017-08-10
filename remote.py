@@ -62,13 +62,13 @@ def sendCommand(input):
 
 
 
-    #ADDRESS = '192.168.1.100'  # connection address
-    #PORT = 50000  # connection port
+    ADDRESS = '192.168.1.100'  # connection address
+    PORT = 50000  # connection port
 
 
-    #s = socket(AF_INET, SOCK_STREAM)
-    #s.connect((ADDRESS, PORT))
-    #s.send(data)
+    s = socket(AF_INET, SOCK_STREAM)
+    s.connect((ADDRESS, PORT))
+    s.send(data)
     time.sleep(1)
     print ("Sent " + text)
 

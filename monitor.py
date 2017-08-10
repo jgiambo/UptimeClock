@@ -7,7 +7,7 @@ GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 print("Make sure you have a button connected so that when pressed")
 print("it will connect GPIO port 23 (pin 16) to GND (pin 6)\n")
-input("Press Enter when ready\n>")
+#input("Press Enter when ready\n>")
 
 print("Waiting for falling edge on port 23")
 # now the program will do nothing until the signal on port 23
